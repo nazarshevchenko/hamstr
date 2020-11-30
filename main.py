@@ -46,4 +46,5 @@ for i in range(C):
         n += 1
     
 
+file = open("hamsrt.out.txt", "w").write(str(n))
 print(n)
